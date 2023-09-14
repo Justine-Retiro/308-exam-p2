@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Events</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container-nav">
+        <div class="nav-header">
+            <ul>
+                <a href="index.html"><li>index</li></a>
+                <a href="pg2.html"><li>page 2</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="container-grid">
+        <div class="grid">
+            <div class="row">
+                <div class="column">
+                    <img id="img1" src="/pics/01.jpg" alt="1">
+                    <button id="btn1" onclick="changePicSrc()">Change pic</button>
+                </div>
+                <div class="column">
+                    <img id="img2" src="/pics/02.jpg" alt="2">
+                    <button id="btn2" onclick="changePicSrc()">Change pic</button>
+                </div>
+                <div class="column">
+                    <img id="img3" src="/pics/03.jpg" alt="3">
+                    <button id="btn3" onclick="changePicSrc()">Change pic</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <video id="vid1" src="/vids/1.mp4" controls></video>
+                    <button id="vtn1">Change vid</button>
+                </div>
+                <div class="column">
+                    <video id="vid2" src="/vids/2.mp4" controls></video>
+                    <button id="vtn2">Change vid</button>
+                </div>
+                <div class="column">
+                    <video id="vid3" src="/vids/3.mp4" controls></video>
+                    <button id="vtn3">Change vid</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
